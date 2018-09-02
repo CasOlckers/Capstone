@@ -1,0 +1,31 @@
+/*Header Container */
+.headerContainer {
+  height:64px;
+  width: 100%;
+  border: 1px solid grey;
+
+}
+
+
+/*Main Banner Container */
+.mainbannerContainer {
+  height:600px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+/* Start Here Detail Container */
+ .startHereDetailContainer {
+   height:600px;
+   width: 100%;
+   border: 1px solid green;
+ }
+
+
+/* Start Learning Container */
+
+.startLearningContainer {
+  height:600px;
+  width: 100%;
+  border: 1px solid orange;
+}
