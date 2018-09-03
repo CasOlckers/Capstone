@@ -3,15 +3,55 @@
   height:64px;
   width: 100%;
   border: 1px solid grey;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: white;
 
 }
 
+.icon {
+  height: 2rem;
+  padding: 1rem;
+  width: 30%;
+  border: 1px solid blue;
+  margin-left: 1.5rem;
+}
+
+
+.navbar {
+  height: 2rem;
+  padding: 1rem;
+  width: 30%;
+  border: 1px solid red;
+  margin-right: 1.5rem;
+}
 
 /*Main Banner Container */
 .mainbannerContainer {
   height:600px;
   width: 100%;
   border: 1px solid red;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+
+.mbcImageContainer {
+  border: 1px solid blue;
+  background-color: lightblue;
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+
+
+.startHereContainer {
+  border: 1px solid green;
+  background-color: lightgreen;
+  width: 40%;
+
 }
 
 /* Start Here Detail Container */
@@ -28,4 +68,22 @@
   height:600px;
   width: 100%;
   border: 1px solid orange;
+  background-color: lightgrey;
+}
+
+/* Thesis exibit Container */
+
+.thesisExibitContainer {
+  height:600px;
+  width: 100%;
+  border: 1px solid lightblue;
+}
+
+
+/* Footer Container */
+
+.footerContainer {
+  height:300px;
+  width: 100%;
+  border: 1px solid red;
 }
