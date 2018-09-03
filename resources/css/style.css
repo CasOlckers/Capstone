@@ -47,10 +47,11 @@
 
 
 
-.startHereContainer {
+.startHereButtonContainer {
   border: 1px solid green;
   background-color: lightgreen;
   width: 40%;
+
 
 }
 
@@ -59,8 +60,47 @@
    height:600px;
    width: 100%;
    border: 1px solid green;
+   display: flex;
+   flex-direction: row;
  }
 
+ .shdImageContainer {
+   border: 1px solid blue;
+   background-color: lightblue;
+   width: 60%;
+
+ }
+
+.startHereDetailContainers {
+  border: 1px solid green;
+  background-color: lightgreen;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid yellow;
+
+}
+
+.details img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.details .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 1rem;
+}
 
 /* Start Learning Container */
 
