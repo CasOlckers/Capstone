@@ -85,7 +85,6 @@ align-items: center;
   background-color: lightgrey;
   opacity: 0.5;
   width: 100%;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -110,10 +109,7 @@ align-items: center;
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  opacity: 1;
+
 
 
 }
@@ -125,6 +121,8 @@ align-items: center;
   font-weight: bold;
   margin-left: 1.5rem;
   margin-bottom: 2rem;
+  text-align: left;
+  margin-top: 6rem;
 }
 
 .startHereButtonContainer p {
@@ -162,34 +160,80 @@ align-items: center;
 
 /* Start Here Detail Container */
  .startHereDetailContainer {
-   height:600px;
+   height:800px;
    width: 100%;
-   border: 1px solid green;
    display: flex;
    flex-direction: row;
  }
+.shdImageContainer h1 {
+
+ font-family: sans-serif;
+ font-size: 2rem;
+ color: #292F33;
+ font-weight: bold;
+ margin-left: 1.5rem;
+ margin-bottom: 1.5rem;
+ text-align: left;
+
+
+
+ }
+
+ .shdImageContainer p {
+   font-family: sans-serif;
+   font-size: 1rem;
+   color: #292F33;
+   font-weight: normal;
+   margin-left: 1.5rem;
+   text-align: left;
+
+ }
 
  .shdImageContainer {
-   border: 1px solid blue;
-   background-color: lightblue;
+   background-color: white;
    width: 60%;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+
 
  }
 
+ .shdImageContainer h4 {
+   font-family: sans-serif;
+   font-size: 1rem;
+   color: #292F33;
+   font-weight: normal;
+   margin-left: 1.5rem;
+   margin-top: 2rem;
+   text-align: left;
+
+ }
+
+ .shdImageContainer p {
+   align-items: left;
+   margin-left: 1.5rem;
+   font-family: sans-serif;
+   font-size: 1rem;
+   color: #292F33;
+   font-weight: normal;
+   margin-top: 0.5rem;
+   margin-bottom: 1.5rem;
+   line-height: 1.5rem;
+ }
+
+
+
  .shdImageContainer img {
-   margin: 2rem 1.5rem;
+   margin: 2rem 1.5rem 2rem 1.5rem;
    width: 90%;
  }
 
 
 
 .startHereDetailContainers {
-  border: 1px solid green;
-  background-color: lightgreen;
+
+  background-color: white;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -200,7 +244,7 @@ align-items: center;
   display: flex;
   flex-direction: row;
   width: 100%;
-  border: 1px solid yellow;
+  border: 1px solid grey;
 
 }
 
@@ -210,22 +254,72 @@ align-items: center;
   padding: 1rem;
 }
 
-.details .text {
+.text h2 {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #292F33;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+
+}
+
+.text span {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.text a {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: blue;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+
+}
+
+.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  margin-left: 1rem;
 }
+
 
 /* Start Learning Container */
 
 .startLearningContainer {
-  height:600px;
+  height: auto;
   width: 100%;
-  border: 1px solid orange;
   background-color: lightgrey;
   display: block;
+
+}
+
+.startLearningContainer h1 {
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #292F33;
+  font-weight: bold;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
 }
 
 .startLearningUpperBlocksContainer {
@@ -241,10 +335,9 @@ align-items: center;
 .upperBlock {
   display: flex;
   flex-direction: column;
-  border: 1px solid orange;
-  background-color: lightblue;
+  background-color: white;
   width: 25%;
-  margin: 2rem 1rem;
+  margin: 1rem 1rem;
 }
 
 .upperBlock img {
@@ -253,6 +346,40 @@ align-items: center;
 
 }
 
+.upperBlock h2 {
+  margin-top: 1rem;
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #292F33;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.upperBlock h4 {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 0.rem;
+}
+
+.upperBlock span {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
 
 .startLearningLowerBlocksContainer {
   display: flex;
@@ -267,16 +394,50 @@ align-items: center;
 .lowerBlock {
   display: flex;
   flex-direction: column;
-  border: 1px solid orange;
-  background-color: lightblue;
+  background-color: white;
   width: 25%;
-  margin: 2rem 1rem;
+  margin: 2rem 2rem;
 }
 
 .lowerBlock img {
   width: 100%;
   height: auto;
 
+}
+
+.lowerBlock h2 {
+  margin-top: 1rem;
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #292F33;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.lowerBlock h4 {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 0.rem;
+}
+
+.lowerBlock span {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
 }
 /* Thesis exibit Container */
 .exhibitHeading {
@@ -288,8 +449,22 @@ align-items: center;
   align-items: center;
 
 }
+
+.exhibitHeading h1 {
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #292F33;
+  font-weight: bold;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
+}
+
 .thesisExibitContainer {
-  height:600px;
+  height:auto;
   width: 100%;
   border: 1px solid lightblue;
   display: flex;
@@ -311,9 +486,34 @@ width: 100%;
 margin-bottom: 1.5rem;
 }
 
+.thesisExibitVideo h2 {
+  margin-top: 1rem;
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #292F33;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.thesisExibitVideo p {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+
+
 .thesisExibitDetails {
-  border: 1px solid green;
-  background-color: lightgreen;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -321,10 +521,47 @@ margin-bottom: 1.5rem;
 
 }
 
+.thesisExibitDetails h2 {
+  margin-top: 1rem;
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #292F33;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.thesisExibitDetails span {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.thesisExibitDetails span {
+  align-items: left;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #292F33;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
 .detailsblock {
   display: flex;
   flex-direction: row;
   width: 100%;
+  background-color: lightgrey;
 }
 
 .detailsblock img {
@@ -341,12 +578,34 @@ margin-bottom: 1.5rem;
   margin-left: 1rem;
 }
 
+.detailsblock2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+}
+
+.detailsblock2 img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.detailsblock2 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 1rem;
+}
+
+
 
 
 /* Footer Container */
 
 .footerContainer {
-  height:300px;
+  height:auto;
   width: 100%;
   border: 1px solid red;
 }
