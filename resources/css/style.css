@@ -25,7 +25,7 @@ align-items: center;
 
 }
 
-.headerContainer .icon span h1 {
+.headerContainer .icon h1 {
 
   font: Sans-serif;
   font-size:  2rem;
@@ -33,7 +33,7 @@ align-items: center;
   font-weight: bold;
 }
 
-.headerContainer .icon span h2 {
+.headerContainer .icon h2 {
 
   font-family: sans-serif;
   font-size:  2rem;
