@@ -105,7 +105,7 @@ html {
   }
 
   .navbar img {
-    padding: 1rem 1.3rem;
+    padding: 1rem 2rem;
   }
 
 .navbar {
@@ -152,8 +152,9 @@ html {
 
 @media only screen and (max-width: 460px){
   .mbcImageContainer img {
-    width: 280px;
+    width: 320px;
     height: auto;
+    margin-left: 1rem;
 
 
   }
@@ -316,7 +317,7 @@ html {
 
 
  .shdImageContainer img {
-   margin: 2rem 1.5rem 2rem 1.5rem;
+   margin: 2rem 1.5rem;
    width: 90%;
  }
 
@@ -373,7 +374,7 @@ html {
 
   .startHereDetailContainers {
     width: 100%;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
 }
 
@@ -925,4 +926,26 @@ margin-bottom: 1.5rem;
 .footerContainer li {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 460px)  {
+
+  .footerContainer li {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+  }
+
+  .footerContainer p {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .footerContainer ul {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    align-items: center;
+
+  }
+
 }
