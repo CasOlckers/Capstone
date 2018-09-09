@@ -77,7 +77,15 @@ html {
   font: sans-serif;
   font-size: 1rem;
   color: grey;
+  transition-property: font-weight;
+  transition-duration: 0.750s;
  }
+
+ .navbar li:hover {
+   font-weight: bold;
+ }
+}
+
 
 
 .navbarseperator {
@@ -202,7 +210,7 @@ html {
 }
 
 .shbbutton {
-  background: black;
+  background-color: black;
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -211,8 +219,14 @@ html {
   justify-content: center;
   margin-left: 1.5rem;
   margin-right: 3rem;
+  transition-property: background-color;
+  transition-duration: 0.750s;
+  border-radius: 4px;
 }
 
+.shbbutton:hover {
+  background-color: grey;
+}
 
 
 .shbbutton span {
