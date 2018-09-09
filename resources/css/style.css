@@ -320,7 +320,12 @@ html {
    width: 90%;
  }
 
+@media only screen and (max-width: 460px){
 
+ .shdImageContainer {
+  display: none;
+ }
+}
 
 .startHereDetailContainers {
 
@@ -331,6 +336,10 @@ html {
   margin-left: 1.5rem;
 }
 
+.details #mobileImg {
+  display: none;
+   }
+
 .details {
   display: flex;
   flex-direction: row;
@@ -339,11 +348,35 @@ html {
 
 }
 
-.details img {
+.details #desktopImg {
   width: 35%;
   height: auto;
   padding: 1rem;
 }
+
+@media only screen and (max-width: 460px){
+.startHereDetailContainers .details {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 280px;
+  margin-left: 0;
+}
+
+
+.startHereDetailContainers .details #desktopImg {
+  display: none;
+  }
+.startHereDetailContainers .details #mobileImg {
+  display: flex;
+  width: 100%;
+  }
+
+  .startHereDetailContainers {
+    width: 100%;
+    margin-left: 1rem;
+  }
+}
+
 
 .text h2 {
   align-items: left;
@@ -388,6 +421,7 @@ html {
   flex-direction: column;
   justify-content: center;
 }
+
 
 
 /* Start Learning Container */
