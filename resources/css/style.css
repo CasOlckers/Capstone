@@ -3,6 +3,7 @@ html {
 }
 
 /*Header Container */
+
 .headerContainer {
   height: 4rem;
   width: 100%;
@@ -19,8 +20,8 @@ html {
   width: 30%;
   margin-left: 1.5rem;
   display: flex;
-flex-direction: row;
-align-items: center;
+  flex-direction: row;
+  align-items: center;
 
 
 }
@@ -39,11 +40,20 @@ align-items: center;
   font-size:  2rem;
   color: grey;
   font-weight: 600;
-
-
 }
 
+@media only screen and (max-width: 480px) {
 
+  .icon h1 {
+
+   display: none;
+  }
+
+  .icon h2 {
+
+    display: none;
+  }
+}
 
 .navbar {
   height: 2rem;
@@ -70,12 +80,33 @@ align-items: center;
   color: grey;
 }
 
+
 .navbarseperator {
   height: 4rem;
   width: 2rem;
   background-color: lightblue;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .navbar li {
+    display: none;
+  }
+
+
+  .navbarseperator {
+  display: none;
+  }
+
+  .navbar img {
+    padding: 1rem 1.3rem;
+  }
+
+.navbar {
+  margin-right: 3.5rem;
+ }
 }
 
 
@@ -110,9 +141,6 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
-
 }
 
 .startHereButtonContainer h1 {
@@ -123,7 +151,6 @@ align-items: center;
   margin-left: 1.5rem;
   margin-bottom: 2rem;
   text-align: left;
-  
 }
 
 .startHereButtonContainer p {
@@ -145,7 +172,6 @@ align-items: center;
   justify-content: center;
   margin-left: 1.5rem;
   margin-right: 3rem;
-
 }
 
 
@@ -156,7 +182,6 @@ align-items: center;
   font-size: 1.5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-
 }
 
 /* Start Here Detail Container */
@@ -166,6 +191,7 @@ align-items: center;
    display: flex;
    flex-direction: row;
  }
+
 .shdImageContainer h1 {
 
  font-family: sans-serif;
@@ -175,10 +201,7 @@ align-items: center;
  margin-left: 1.5rem;
  margin-bottom: 1.5rem;
  text-align: left;
-
-
-
- }
+}
 
  .shdImageContainer p {
    font-family: sans-serif;
@@ -187,8 +210,7 @@ align-items: center;
    font-weight: normal;
    margin-left: 1.5rem;
    text-align: left;
-
- }
+}
 
  .shdImageContainer {
    background-color: white;
@@ -196,9 +218,7 @@ align-items: center;
    display: flex;
    flex-direction: column;
    justify-content: center;
-
-
- }
+}
 
  .shdImageContainer h4 {
    font-family: sans-serif;
