@@ -44,12 +44,16 @@ html {
 
 @media only screen and (max-width: 480px) {
 
-  .icon h1 {
+.headerContainer {
+  height: 4rem;
+}
+
+.icon h1 {
 
    display: none;
   }
 
-  .icon h2 {
+.icon h2 {
 
     display: none;
   }
@@ -114,26 +118,53 @@ html {
 .mainbannerContainer {
   height: 750px;
   background-color: lightgrey;
-  opacity: 0.5;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  opacity: 0.5;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .mainbannerContainer {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+
 }
 
 .mbcImageContainer {
   width: 60%;
   margin: 2rem 1.5rem;
-  background-image: url('../images/banner.jpg');
   opacity: 1;
-}
-
-.mbcImageContainer img {
   background-size: cover;
 
 }
 
+.mbcImageContainer img {
+  width: 100%;
+  height: 100%;
+
+}
+
+@media only screen and (max-width: 460px){
+  .mbcImageContainer img {
+    width: 280px;
+    height: auto;
+
+
+  }
+
+  .mbcImageContainer {
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1treatment;
+
+  }
+}
 
 .startHereButtonContainer {
   background-color: lightgrey;
@@ -160,6 +191,31 @@ html {
   font-weight: normal;
   margin-left: 1.5rem;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 460px){
+
+  .startHereButtonContainer h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: left;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .startHereButtonContainer p {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 0;
+    text-align: left;
+
+
+  }
+
+  .startLearningContainer {
+    width: 280px;
+    height: auto;
+  }
 }
 
 .shbbutton {
