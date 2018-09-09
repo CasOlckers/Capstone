@@ -161,7 +161,7 @@ html {
   .mbcImageContainer {
     justify-content: center;
     align-items: center;
-    margin: 1rem 1treatment;
+    margin: 1rem 1rem;
 
   }
 }
@@ -198,22 +198,19 @@ html {
   .startHereButtonContainer h1 {
     font-size: 1.5rem;
     margin-left: 1rem;
-    text-align: left;
-    margin-top: 0;
-    margin-right: 0;
+
   }
 
   .startHereButtonContainer p {
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 0;
-    text-align: left;
 
 
   }
 
-  .startLearningContainer {
-    width: 280px;
+  .startHereButtonContainer {
+    width: 100%;
     height: auto;
   }
 }
