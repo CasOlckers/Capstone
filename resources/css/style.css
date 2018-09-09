@@ -11,7 +11,6 @@ html {
   justify-content: space-between;
   background-color: white;
   flex-direction: row;
-
 }
 
 .icon {
@@ -22,8 +21,6 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-
-
 }
 
 .headerContainer .icon h1 {
@@ -49,12 +46,10 @@ html {
 }
 
 .icon h1 {
-
    display: none;
   }
 
 .icon h2 {
-
     display: none;
   }
 }
@@ -65,7 +60,7 @@ html {
   margin-right: 1.5rem;
   height: 100%;
   justify-content: center;
-}
+ }
 
 .navbar ul {
   align-items: center;
@@ -75,14 +70,14 @@ html {
   justify-content: space-around;
   align-content: center;
   align-items: center;
-}
+ }
 
 .navbar li {
   margin: 1rem;
   font: sans-serif;
   font-size: 1rem;
   color: grey;
-}
+ }
 
 
 .navbarseperator {
@@ -91,21 +86,21 @@ html {
   background-color: lightblue;
   display: flex;
   flex-direction: column;
-}
+ }
 
 @media only screen and (max-width: 480px) {
 
-  .navbar li {
-    display: none;
-  }
-
-
-  .navbarseperator {
+.navbar li {
   display: none;
   }
 
-  .navbar img {
-    padding: 1rem 2rem;
+
+.navbarseperator {
+  display: none;
+  }
+
+.navbar img {
+  padding: 1rem 2rem;
   }
 
 .navbar {
@@ -122,8 +117,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-}
+ }
 
 @media only screen and (max-width: 480px) {
 
@@ -132,8 +126,6 @@ html {
     width: 100%;
     height: auto;
   }
-
-
 }
 
 .mbcImageContainer {
@@ -141,13 +133,11 @@ html {
   margin: 2rem 1.5rem;
   opacity: 1;
   background-size: cover;
-
 }
 
 .mbcImageContainer img {
   width: 100%;
   height: 100%;
-
 }
 
 @media only screen and (max-width: 460px){
@@ -155,15 +145,13 @@ html {
     width: 320px;
     height: auto;
     align-items: center;
-
-
+    margin-right: 1rem;
   }
 
   .mbcImageContainer {
     justify-content: center;
     align-items: center;
     margin: 1rem 1rem;
-
   }
 }
 
@@ -199,22 +187,18 @@ html {
   .startHereButtonContainer h1 {
     font-size: 1.5rem;
     margin-left: 1rem;
-
   }
 
   .startHereButtonContainer p {
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 0;
-
-
   }
 
   .startHereButtonContainer {
     width: 100%;
     height: auto;
   }
-
 }
 
 .shbbutton {
@@ -251,7 +235,6 @@ html {
     justify-content: center;
     margin-left: auto;
     margin-bottom: 2rem;
-
   }
 }
 
@@ -265,14 +248,14 @@ html {
 
 .shdImageContainer h1 {
 
- font-family: sans-serif;
- font-size: 2rem;
- color: #292F33;
- font-weight: bold;
- margin-left: 1.5rem;
- margin-bottom: 1.5rem;
- text-align: left;
-}
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #292F33;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+ }
 
  .shdImageContainer p {
    font-family: sans-serif;
@@ -281,7 +264,7 @@ html {
    font-weight: normal;
    margin-left: 1.5rem;
    text-align: left;
-}
+ }
 
  .shdImageContainer {
    background-color: white;
@@ -289,7 +272,7 @@ html {
    display: flex;
    flex-direction: column;
    justify-content: center;
-}
+ }
 
  .shdImageContainer h4 {
    font-family: sans-serif;
@@ -299,7 +282,6 @@ html {
    margin-left: 1.5rem;
    margin-top: 2rem;
    text-align: left;
-
  }
 
  .shdImageContainer p {
@@ -312,14 +294,14 @@ html {
    margin-top: 0.5rem;
    margin-bottom: 1.5rem;
    line-height: 1.5rem;
- }
+  }
 
 
 
  .shdImageContainer img {
    margin: 2rem 1.5rem;
    width: 90%;
- }
+  }
 
 @media only screen and (max-width: 460px){
 
@@ -335,25 +317,24 @@ html {
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
-}
+ }
 
 .details #mobileImg {
   display: none;
-   }
+ }
 
 .details {
   display: flex;
   flex-direction: row;
   width: 100%;
   border: 1px solid grey;
-
 }
 
 .details #desktopImg {
   width: 35%;
   height: auto;
   padding: 1rem;
-}
+ }
 
 @media only screen and (max-width: 460px){
 .startHereDetailContainers .details {
@@ -361,7 +342,7 @@ html {
   flex-wrap: wrap;
   width: 280px;
   margin-left: 0;
-}
+ }
 
 
 .startHereDetailContainers .details #desktopImg {
@@ -388,8 +369,6 @@ html {
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-
-
 }
 
 .text span {
@@ -401,7 +380,6 @@ html {
   font-weight: normal;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-
 }
 
 .text a {
@@ -413,8 +391,6 @@ html {
   margin-left: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-
-
 }
 
 .text {
@@ -432,7 +408,6 @@ html {
   width: 100%;
   background-color: lightgrey;
   display: block;
-
 }
 
 .startLearningContainer h1 {
@@ -445,7 +420,6 @@ html {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-
 }
 
 .startLearningUpperBlocksContainer {
@@ -455,7 +429,6 @@ html {
   align-content: center;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .upperBlock {
@@ -469,7 +442,6 @@ html {
 .upperBlock img {
   width: 100%;
   height: auto;
-
 }
 
 .upperBlock h2 {
@@ -510,8 +482,7 @@ html {
 @media only screen and (max-width: 460px) {
 
   .startLearningContainer {
-    background-color: white;
-
+   background-color: white;
   }
 
 
@@ -521,8 +492,6 @@ html {
     width: 100%;
     align-content: center;
     align-items: center;
-
-
   }
 
   .upperBlock {
@@ -533,18 +502,15 @@ html {
     border: 8px solid white;
     margin: 0 1rem;
     text-align: left;
-
   }
 
   .upperBlock img {
     display: none;
-
   }
 
   .upperBlock h2 {
     color: #292F33;
     font-weight: bold;
-
   }
 
   .upperBlock h4 {
@@ -554,7 +520,6 @@ html {
   .upperBlock span {
     display: none;
   }
-
 }
 
 .startLearningLowerBlocksContainer {
@@ -564,7 +529,6 @@ html {
   align-content: center;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .lowerBlock {
@@ -578,7 +542,6 @@ html {
 .lowerBlock img {
   width: 100%;
   height: auto;
-
 }
 
 .lowerBlock h2 {
@@ -624,8 +587,6 @@ html {
     width: 100%;
     align-content: center;
     align-items: center;
-
-
   }
 
   .lowerBlock {
@@ -636,18 +597,15 @@ html {
     border: 8px solid white;
     margin: 0 1rem;
     text-align: left;
-
   }
 
   .lowerBlock img {
     display: none;
-
   }
 
   .lowerBlock h2 {
     color: #292F33;
-    font-weight: bold;
-
+   font-weight: bold;
   }
 
   .lowerBlock h4 {
@@ -657,10 +615,8 @@ html {
   .lowerBlock span {
     display: none;
   }
-
-
-
 }
+
 /* Thesis exibit Container */
 .exhibitHeading {
   display: flex;
@@ -669,7 +625,6 @@ html {
   height: auto;
   justify-content: center;
   align-items: center;
-
 }
 
 .exhibitHeading h1 {
@@ -682,7 +637,6 @@ html {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-
 }
 
 .thesisExibitContainer {
@@ -690,7 +644,6 @@ html {
   width: 100%;
   display: flex;
   flex-direction: row;
-
 }
 
 
@@ -702,9 +655,9 @@ html {
 }
 
 .thesisExibitVideo video {
-position: relative;
-width: 100%;
-margin-bottom: 1.5rem;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .thesisExibitVideo h2 {
@@ -733,13 +686,11 @@ margin-bottom: 1.5rem;
 }
 
 
-
 .thesisExibitDetails {
   width: 40%;
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
-
 }
 
 .thesisExibitDetails h2 {
@@ -818,9 +769,9 @@ margin-bottom: 1.5rem;
   }
 
   .thesisExibitVideo video {
-  position: relative;
-  width: 100%;
-  margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 
   .exhibitHeading h1 {
@@ -831,7 +782,7 @@ margin-bottom: 1.5rem;
   }
 
   .thesisExibitVideo h2 {
-   display: none;
+    display: none;
   }
 
   .thesisExibitVideo p {
@@ -879,8 +830,6 @@ margin-bottom: 1.5rem;
 }
 
 
-
-
 /* Footer Container */
 
 .footerContainer {
@@ -905,7 +854,6 @@ margin-bottom: 1.5rem;
   font-weight: normal;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-
 }
 
 .footerContainer ul {
@@ -920,7 +868,6 @@ margin-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
-
 }
 
 .footerContainer li {
@@ -945,7 +892,5 @@ margin-bottom: 1.5rem;
     margin-left: 0.5rem;
     font-size: 0.8rem;
     align-items: center;
-
   }
-
 }
