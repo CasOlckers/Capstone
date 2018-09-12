@@ -927,3 +927,15 @@ body {
     align-items: center;
   }
 }
+
+.footerContainer ul {
+  transition-property: background-color;
+  transition-duration: 0.750s;
+
+
+}
+
+.footerContainer ul:hover {
+ background-color: red;
+
+}
