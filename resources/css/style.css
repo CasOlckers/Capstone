@@ -234,6 +234,8 @@ body {
   transition-property: background-color;
   transition-duration: 0.750s;
   border-radius: 4px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .shbbutton:hover {
@@ -241,12 +243,14 @@ body {
 }
 
 
-.shbbutton span {
+.shbbutton span a {
   color: white;
   text-align: center;
   font-size: 1.5rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+
 }
 
 @media only screen and (max-width: 460px){
