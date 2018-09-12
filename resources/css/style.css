@@ -6,6 +6,17 @@ body {
   cursor: pointer;
 }
 
+/*Start Here Page */
+
+.return_to_main_page a {
+
+  font: Sans-serif;
+  font-size:  2rem;
+  color: black;
+  font-weight: bold;
+
+}
+
 /*Header Container */
 
 .headerContainer {
@@ -266,6 +277,8 @@ body {
     margin-left: auto;
     margin-bottom: 2rem;
   }
+
+
 }
 
 /* Start Here Detail Container */
