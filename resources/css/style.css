@@ -550,6 +550,7 @@ body {
   width: 35%;
   height: auto;
   padding: 1rem;
+  border-radius: 4px;
  }
 
 @media only screen and (max-width: 460px){
@@ -1226,6 +1227,118 @@ body {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .exhibitHeading {
+    margin-bottom: 0;
+  }
+
+  .exhibitHeading h1 {
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #292F33;
+    padding-top: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+  .thesisExibitContainer {
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thesisExibitVideo {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .thesisExibitVideo #desktopvideo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .thesisExibitVideo #mobilevideo {
+    display: none;
+  }
+
+  .thesisExibitDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+  }
+
+  .thesisExibitDetails h2 {
+    margin-top: 1rem;
+  }
+
+
+  .thesisExibitDetails span {
+    align-items: left;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #292F33;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .detailsblock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: lightgrey;
+  }
+
+  .detailsblock img {
+    width: 35%;
+    height: 70%;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+
+  .detailsblock .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .detailsblock2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+  }
+
+  .detailsblock2 img {
+    width: 35%;
+    height: 70%;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+
+  .detailsblock2 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 1rem;
+  }
+
+}
+
 
 /* Footer Container */
 
@@ -1300,6 +1413,6 @@ body {
 }
 
 .footerContainer ul:hover {
- background-color: red;
+ background-color: lightgrey;
 
 }
